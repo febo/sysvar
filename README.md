@@ -2,7 +2,7 @@
   <code>sysvar</code>
 </h1>
 <p align="center">
-  <img width="400" alt="playground" src="https://github.com/user-attachments/assets/2b80e13a-9d9d-4689-8a67-631fcb86cf8d" />
+  <img width="400" alt="playground" src="https://github.com/user-attachments/assets/e4cf1712-e423-4dbd-8b15-5d8f3d18ffed" />
 </p>
 
 <p align="center">
