@@ -12,9 +12,9 @@
 ## Overview
 
 There are two ways to retrieve sysvar data. Many of the sysvar have an individual syscall (e.g., `Rent`
-has a `sol_get_rent_sysvar`) and there is also a generic `sol_get_sysvar`. The generic syscall is cheaper
-in terms of compute units. Apart from the base syscall base cost, it charges `max(size_of::<T>() / 250, 10)`.
-For any sysvar longer than `10` bytes, while syvar-specific ones charges `size_of::<T>()`.
+has a `sol_get_rent_sysvar`) and there is also a generic `sol_get_sysvar`. Apart from the base syscall base cost,
+the genetic syscall charges `max(size_of::<T>() / 250, 10)`, while syvar-specific ones charges `size_of::<T>()`.
+For any sysvar longer than `10` bytes, the generic syscall is cheaper in terms of compute units.
 
 ## Building and Running
 
